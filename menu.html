@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Golden Bean Cafe - Menu</title>
+    <meta
+      name="description"
+      content="Coffee, pastries, and more. Browse the Golden Bean Cafe menu."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="brand" href="index.html" aria-label="Golden Bean Cafe">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Golden Bean Cafe</span>
+          </a>
+
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">
+            Menu
+          </button>
+
+          <div class="nav-links" aria-label="Desktop navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </nav>
+
+        <div id="nav-panel" class="nav-panel" data-open="false">
+          <div class="nav-links" aria-label="Mobile navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-card">
+            <div class="kicker">Fresh daily • Crafted to order</div>
+            <h1 class="hero-title">
+              Our <span>Menu</span>
+            </h1>
+            <p class="hero-lead">Filter by category and pick your favorites. Everything is made fresh.</p>
+          </div>
+          <div class="hero-side">
+            <div class="side-badge">
+              <h3>Pickup & dine-in</h3>
+              <p>Fast service with a cozy vibe.</p>
+            </div>
+            <div class="side-badge">
+              <h3>Need help choosing?</h3>
+              <p>Send us a message and we’ll recommend.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="menu-title">
+        <div class="menu-top">
+          <div class="section-title">
+            <h2 id="menu-title">Browse items</h2>
+            <p>Tap a category.</p>
+          </div>
+
+          <div class="menu-filters" role="group" aria-label="Menu filters">
+            <button class="pill" type="button" data-filter="pill" data-value="all" aria-pressed="true">
+              All
+            </button>
+            <button class="pill" type="button" data-filter="pill" data-value="coffee" aria-pressed="false">
+              Coffee
+            </button>
+            <button class="pill" type="button" data-filter="pill" data-value="pastry" aria-pressed="false">
+              Pastries
+            </button>
+            <button class="pill" type="button" data-filter="pill" data-value="tea" aria-pressed="false">
+              Tea & More
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-grid" aria-live="polite">
+          <!-- Coffee -->
+          <article class="card menu-item" data-menu-item="true" data-category="coffee">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/espresso.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Espresso</h3>
+            <p>Bold, smooth, and perfectly balanced.</p>
+            <div class="menu-meta">
+              <span>Small</span>
+              <span class="price">₹291</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="coffee">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/latte.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Latte</h3>
+            <p>Velvety milk with rich espresso.</p>
+            <div class="menu-meta">
+              <span>Classic</span>
+              <span class="price">₹411</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="coffee">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/cold-brew.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Cold Brew</h3>
+            <p>Slow-steeped for a clean, refreshing taste.</p>
+            <div class="menu-meta">
+              <span>Chilled</span>
+              <span class="price">₹477</span>
+            </div>
+          </article>
+
+          <!-- Pastry -->
+          <article class="card menu-item" data-menu-item="true" data-category="pastry">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/croissant.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Butter Croissant</h3>
+            <p>Flaky layers, baked fresh in the morning.</p>
+            <div class="menu-meta">
+              <span>1 piece</span>
+              <span class="price">₹270</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="pastry">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/muffin.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Chocolate Muffin</h3>
+            <p>Deep cocoa flavor with a soft crumb.</p>
+            <div class="menu-meta">
+              <span>1 piece</span>
+              <span class="price">₹311</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="pastry">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/tart.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Seasonal Tart</h3>
+            <p>Rotating fruit and creamy filling.</p>
+            <div class="menu-meta">
+              <span>Chef’s pick</span>
+              <span class="price">₹519</span>
+            </div>
+          </article>
+
+          <!-- Tea -->
+          <article class="card menu-item" data-menu-item="true" data-category="tea">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/jasmine-tea.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Jasmine Tea</h3>
+            <p>Fragrant, calming, and lightly sweet.</p>
+            <div class="menu-meta">
+              <span>Hot</span>
+              <span class="price">₹328</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="tea">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/chai-latte.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Chai Latte</h3>
+            <p>Spiced chai with creamy warmth.</p>
+            <div class="menu-meta">
+              <span>Spiced</span>
+              <span class="price">₹436</span>
+            </div>
+          </article>
+
+          <article class="card menu-item" data-menu-item="true" data-category="tea">
+            <div class="menu-thumb" aria-hidden="true">
+              <img src="images/matcha.svg" alt="" aria-hidden="true" />
+            </div>
+            <h3>Matcha</h3>
+            <p>Earthy matcha with silky foam.</p>
+            <div class="menu-meta">
+              <span>Green</span>
+              <span class="price">₹540</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section" style="padding-bottom: 0">
+          <div class="card">
+            <h3>Want catering or bulk orders?</h3>
+            <p>
+              Message us on the contact page. This demo site shows the form working without any server.
+            </p>
+            <div class="hero-actions" style="margin-top: 12px">
+              <a class="btn btn-primary" href="contact.html">Contact Us</a>
+              <a class="btn" href="about.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <small>© <span id="year"></span> Golden Bean Cafe. All rights reserved.</small>
+          <small>Menu page.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

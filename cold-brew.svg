@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Cold brew icon">
+  <defs>
+    <linearGradient id="glass" x1="70" y1="80" x2="190" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93c5fd" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="brew" x1="90" y1="120" x2="165" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c2d12" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c2d12" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glass -->
+  <path d="M86 60h84l-10 30H96L86 60z" fill="#dbeafe" opacity="0.85"/>
+  <path d="M92 90h72l-6 138c-1 10-10 18-20 18H118c-10 0-19-8-20-18L92 90z" fill="url(#glass)" stroke="#1e3a8a" stroke-opacity="0.18" stroke-width="4"/>
+
+  <!-- Brew layer -->
+  <path d="M104 124c16 10 32 14 48 14s32-4 48-14l-4 84c-1 10-10 18-20 18h-48c-10 0-19-8-20-18l-4-84z" fill="url(#brew)"/>
+
+  <!-- Ice -->
+  <path d="M120 118l22-16 18 22-22 16-18-22z" fill="#e0f2fe" opacity="0.95" stroke="#0ea5e9" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M98 138l20-14 18 20-20 14-18-20z" fill="#e0f2fe" opacity="0.85" stroke="#0ea5e9" stroke-opacity="0.2" stroke-width="3"/>
+
+  <!-- Straw -->
+  <path d="M150 54l20 0-6 170h-20z" fill="#93c5fd" opacity="0.35" stroke="#1d4ed8" stroke-opacity="0.18" stroke-width="3"/>
+</svg>
+

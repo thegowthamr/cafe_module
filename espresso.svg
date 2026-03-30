@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Espresso icon">
+  <defs>
+    <linearGradient id="cup" x1="56" y1="70" x2="190" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb923c" />
+      <stop offset="1" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="steam" x1="90" y1="30" x2="120" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fde68a" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Steam -->
+  <path d="M105 48c-10 12-9 25 2 35 13 12 10 25-3 35" fill="none" stroke="url(#steam)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 44c-10 12-9 25 2 35 13 12 10 25-3 35" fill="none" stroke="url(#steam)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Cup -->
+  <path d="M78 96h120l-10 112c-1 10-10 18-20 18H108c-10 0-19-8-20-18L78 96z" fill="url(#cup)" stroke="#9a3412" stroke-opacity="0.25" stroke-width="4"/>
+  <rect x="80" y="82" width="120" height="22" rx="11" fill="#fbbf24" opacity="0.95" stroke="#9a3412" stroke-opacity="0.25" stroke-width="4"/>
+
+  <!-- Coffee -->
+  <path d="M92 118c20 10 45 14 58 14s38-4 58-14l-8 84c-1 8-8 14-16 14H116c-8 0-15-6-16-14l-8-84z" fill="#7c2d12" opacity="0.35"/>
+
+  <!-- Handle -->
+  <path d="M198 108c26 4 34 18 34 40s-8 36-34 40" fill="none" stroke="#f59e0b" stroke-width="16" stroke-linecap="round" opacity="0.95"/>
+  <path d="M198 108c26 4 34 18 34 40s-8 36-34 40" fill="none" stroke="#9a3412" stroke-width="4" stroke-linecap="round" opacity="0.25"/>
+</svg>
+

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Chai latte icon">
+  <defs>
+    <linearGradient id="cup4" x1="70" y1="86" x2="190" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fef3c7" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="chai" x1="90" y1="130" x2="170" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c2d12" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c2d12" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Steam -->
+  <path d="M104 52c-10 14-8 24 2 34 12 12 10 24-3 34" fill="none" stroke="#fde68a" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M144 54c-10 14-8 24 2 34 12 12 10 24-3 34" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Cup -->
+  <path d="M80 96h120l-12 118c-1 10-10 18-20 18H112c-10 0-19-8-20-18L80 96z" fill="url(#cup4)" stroke="#9a3412" stroke-opacity="0.18" stroke-width="4"/>
+  <path d="M92 84h96c8 0 14 6 14 14v10H78v-10c0-8 6-14 14-14z" fill="#fbbf24" opacity="0.95" stroke="#9a3412" stroke-opacity="0.16" stroke-width="4"/>
+
+  <!-- Chai layer -->
+  <path d="M92 132c22 10 48 14 72 10 22-4 34-12 34-12l-8 62c-1 10-10 18-20 18H112c-10 0-19-8-20-18l-8-60z" fill="url(#chai)"/>
+
+  <!-- Cinnamon stick -->
+  <path d="M132 108l-18 86" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+  <path d="M134 110l-10 88" stroke="#9a3412" stroke-width="4" stroke-linecap="round" opacity="0.18"/>
+</svg>
+

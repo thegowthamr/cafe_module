@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Jasmine tea icon">
+  <defs>
+    <linearGradient id="cup3" x1="70" y1="84" x2="190" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="90" y1="60" x2="170" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22c55e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#16a34a" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Steam -->
+  <path d="M112 52c-10 14-8 26 4 36 12 10 12 22 2 34" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M148 56c-10 14-8 26 4 36 12 10 12 22 2 34" fill="none" stroke="#fde68a" stroke-opacity="0.75" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Cup -->
+  <path d="M80 96h120l-12 118c-1 10-10 18-20 18H112c-10 0-19-8-20-18L80 96z" fill="url(#cup3)" stroke="#9a3412" stroke-opacity="0.18" stroke-width="4"/>
+  <path d="M92 84h96c8 0 14 6 14 14v10H78v-10c0-8 6-14 14-14z" fill="#fbbf24" opacity="0.95" stroke="#9a3412" stroke-opacity="0.16" stroke-width="4"/>
+
+  <!-- Jasmine bloom + leaf -->
+  <circle cx="124" cy="144" r="12" fill="#fef3c7" opacity="0.95" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="3"/>
+  <path d="M146 122c20 4 34 20 34 40-20-6-34-20-34-40z" fill="url(#leaf)" opacity="0.9"/>
+</svg>
+

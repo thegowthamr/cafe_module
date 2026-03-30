@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Latte icon">
+  <defs>
+    <linearGradient id="cup2" x1="58" y1="76" x2="192" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fef3c7" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Steam -->
+  <path d="M104 52c-10 14-9 28 2 39 14 14 10 28-4 39" fill="none" stroke="#fde68a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M144 52c-10 14-9 28 2 39 14 14 10 28-4 39" fill="none" stroke="#f59e0b" stroke-opacity="0.65" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Cup body -->
+  <path d="M78 96h120l-10 112c-1 10-10 18-20 18H108c-10 0-19-8-20-18L78 96z" fill="url(#cup2)" stroke="#9a3412" stroke-opacity="0.25" stroke-width="4"/>
+  <rect x="80" y="82" width="120" height="22" rx="11" fill="#fbbf24" opacity="0.95" stroke="#9a3412" stroke-opacity="0.25" stroke-width="4"/>
+
+  <!-- Coffee + milk art -->
+  <path d="M92 120c22 10 46 14 60 14s38-4 60-14l-8 78c-1 8-8 14-16 14H116c-8 0-15-6-16-14l-8-78z" fill="#7c2d12" opacity="0.28"/>
+  <path d="M130 152c-10 0-18-7-18-16s8-16 18-16c10 0 18 7 18 16s-8 16-18 16z" fill="#7c2d12" opacity="0.55"/>
+  <path d="M116 154c6-8 15-8 21-2 8-10 20-10 30 0 0 26-20 38-36 38s-32-12-32-36z" fill="#fef3c7" opacity="0.9"/>
+</svg>
+

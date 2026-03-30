@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Tart icon">
+  <defs>
+    <linearGradient id="crust" x1="40" y1="90" x2="220" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="60" y1="80" x2="200" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ef4444" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shell -->
+  <path d="M56 118c0-26 22-46 50-46h44c28 0 50 20 50 46v92c0 12-10 22-22 22H78c-12 0-22-10-22-22v-92z" fill="url(#crust)" stroke="#9a3412" stroke-opacity="0.18" stroke-width="4"/>
+
+  <!-- Filling -->
+  <path d="M68 122c0-18 15-32 33-32h54c18 0 33 14 33 32v66c0 10-8 18-18 18H86c-10 0-18-8-18-18v-66z" fill="url(#fill)" stroke="#7c2d12" stroke-opacity="0.15" stroke-width="3"/>
+
+  <!-- Top berries -->
+  <circle cx="95" cy="110" r="10" fill="#ef4444" opacity="0.75"/>
+  <circle cx="128" cy="98" r="12" fill="#fb7185" opacity="0.55"/>
+  <circle cx="160" cy="112" r="9" fill="#ef4444" opacity="0.68"/>
+
+  <!-- Crust texture lines -->
+  <path d="M88 96l-6 18M116 88l-6 20M144 90l-6 20M172 100l-6 18" stroke="#9a3412" stroke-opacity="0.22" stroke-width="4" stroke-linecap="round"/>
+</svg>
+

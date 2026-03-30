@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Golden Bean Cafe - Home</title>
+    <meta name="description" content="Golden Bean Cafe. Fresh coffee, pastries, and a cozy place to meet." />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="brand" href="index.html" aria-label="Golden Bean Cafe">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Golden Bean Cafe</span>
+          </a>
+
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">
+            Menu
+          </button>
+
+          <div class="nav-links" aria-label="Desktop navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </nav>
+
+        <div id="nav-panel" class="nav-panel" data-open="false">
+          <div class="nav-links" aria-label="Mobile navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-card">
+            <div class="kicker">Freshly roasted • Made with care</div>
+            <h1 class="hero-title">
+              Coffee and pastries, <span>done right</span>.
+            </h1>
+            <p class="hero-lead">
+              Welcome to Golden Bean Cafe. From rich espresso to warm croissants, we serve comfort in every cup.
+              Visit us for breakfast, lunch, or an afternoon treat.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="menu.html">View Menu</a>
+              <a class="btn" href="contact.html">Book a Table</a>
+            </div>
+          </div>
+
+          <div class="hero-side">
+            <div class="side-badge">
+              <h3>Today’s Hours</h3>
+              <p>8:00 AM - 8:00 PM (Daily)</p>
+            </div>
+            <div class="side-badge">
+              <h3>Location</h3>
+              <p>123 Coffee Street, Your City</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="features-title">
+        <div class="section-title">
+          <h2 id="features-title">Why customers love us</h2>
+          <p>Simple, fresh, and fast.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Small-batch roasting</h3>
+            <p>Every roast is tuned for flavor, not just caffeine.</p>
+          </article>
+          <article class="card">
+            <h3>Signature pastries</h3>
+            <p>Buttery croissants, sweet bites, and seasonal specials.</p>
+          </article>
+          <article class="card">
+            <h3>Warm, cozy vibe</h3>
+            <p>Great for meetings, studying, and catching up.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="callout-title">
+        <div class="section-title">
+          <h2 id="callout-title">Start your order</h2>
+          <p>Pick a favorite and enjoy.</p>
+        </div>
+
+        <div class="grid-3">
+          <a class="card" href="menu.html">
+            <h3>Popular coffees</h3>
+            <p>Espresso, latte, cold brew.</p>
+          </a>
+          <a class="card" href="menu.html">
+            <h3>Pastry picks</h3>
+            <p>Croissants, muffins, seasonal treats.</p>
+          </a>
+          <a class="card" href="contact.html">
+            <h3>Event catering</h3>
+            <p>Office, birthdays, and small gatherings.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <small>© <span id="year"></span> Golden Bean Cafe. All rights reserved.</small>
+          <small>Built with pure HTML/CSS/JS.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
